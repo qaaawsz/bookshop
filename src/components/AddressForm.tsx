@@ -86,12 +86,12 @@ const AddressForm: React.FC<{ token: any, next: Function }> = ({token, next}) =>
                     shippingOption
                 }))}>
                     <Grid container spacing={3} style={{padding: 20}}>
-                        <CustomTextField name="First name" label="First name" required={true}/>
-                        <CustomTextField name="Last name" label="Last name" required={true}/>
-                        <CustomTextField name="Address" label="Address" required={true}/>
-                        <CustomTextField name="Email" label="Email" required={true}/>
-                        <CustomTextField name="City" label="City" required={true}/>
-                        <CustomTextField name="ZIP" label="ZIP" required={true}/>
+                        <CustomTextField name="firstName" label="First name" required={true}/>
+                        <CustomTextField name="lastName" label="Last name" required={true}/>
+                        <CustomTextField name="address" label="Address" required={true}/>
+                        <CustomTextField name="email" label="Email" required={true}/>
+                        <CustomTextField name="city" label="City" required={true}/>
+                        <CustomTextField name="zip" label="ZIP" required={true}/>
                         <Grid item xs={12} sm={6}>
                             <InputLabel>Shipping Country</InputLabel>
                             <Select value={shippingCountry} fullWidth
