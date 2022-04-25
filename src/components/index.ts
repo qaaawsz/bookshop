@@ -1,5 +1,0 @@
-export {default as Products} from './Products'
-export {default as Product} from './Product'
-export {default as Navigation} from './Navigation'
-export {default as Cart} from './Cart'
-export {default as Checkout} from './Checkout'

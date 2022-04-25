@@ -10,7 +10,6 @@ const Navigation: React.FC<{ totalItems: any }> = ({totalItems}) => {
             <Toolbar>
                 <Box display="flex" width="100%" justifyContent="space-between">
                     <Typography component={Link} to="/" variant="h6">
-                        <img src="" alt=""/>
                         BookShop
                     </Typography>
                     {

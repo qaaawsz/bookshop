@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react'
-import {Cart, Checkout, Navigation, Products} from './components/index'
+import {Cart, Checkout, Navigation, Products} from './exports'
 import {Route, Routes} from 'react-router-dom'
 import {commerce} from './services/commerce'
 
